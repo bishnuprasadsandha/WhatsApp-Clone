@@ -83,6 +83,14 @@ app/
 
 ---
 
+### **Day 5 — Implementing Navigation & Splash Screen Backend Logic**
+🧭 Integrated **Navigation Component and set up app flow.**
+⚙️ Implemented **Splash Screen backend logic to check Firebase authentication state.**
+🔐 Redirected users automatically based on login status **(Login → Main Screen).**
+✅ Navigation & Splash Screen Logic Completed Successfully!**  
+
+---
+
 ## 🚀 Next Steps
 🛠️ Start backend integration (Firebase / API)  
 📡 Implement data flow and logic  
