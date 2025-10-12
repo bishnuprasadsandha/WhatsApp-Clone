@@ -42,10 +42,15 @@ This project is created for learning and demonstration purposes, showcasing real
 ## 📂 Project Structure
 
 app/
+
 ┣ 📁 ui/ # All UI screens and components
+
 ┣ 📁 data/ # Data models, repositories, Firebase integration
+
 ┣ 📁 viewmodel/ # ViewModels for MVVM architecture
+
 ┣ 📁 utils/ # Helper classes and constants
+
 ┗ AndroidManifest.xml # App manifest file
 
 
@@ -84,10 +89,10 @@ app/
 ---
 
 ### **Day 5 — Implementing Navigation & Splash Screen Backend Logic**
-🧭 Integrated **Navigation Component and set up app flow.**
-⚙️ Implemented **Splash Screen backend logic to check Firebase authentication state.**
-🔐 Redirected users automatically based on login status **(Login → Main Screen).**
-✅ Navigation & Splash Screen Logic Completed Successfully!**  
+🧭 Integrated **Navigation Component and set up app flow.**  
+⚙️ Implemented **Splash Screen backend logic to check Firebase authentication state.**  
+🔐 Redirected users automatically based on login status **(Login → Main Screen).**   
+✅ **Navigation & Splash Screen Logic Completed Successfully!**  
 
 ---
 
