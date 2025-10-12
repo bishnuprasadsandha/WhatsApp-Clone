@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.whatsapp.presentation.navigation.WhatsAppNavigationSystem
 import com.example.whatsapp.ui.theme.WhatsAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,6 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             WhatsAppTheme {
 
+                WhatsAppNavigationSystem()
             }
         }
     }

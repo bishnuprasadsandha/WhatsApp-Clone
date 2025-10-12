@@ -23,14 +23,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import com.example.whatsapp.R
+import com.example.whatsapp.presentation.navigation.Routes
 
 @Composable
-@Preview(showSystemUi = true)
-fun WelcomeScreen() {
+fun WelcomeScreen(navHostController: NavHostController) {
 
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier.fillMaxSize()   ,
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -66,7 +67,9 @@ fun WelcomeScreen() {
 
         Spacer(modifier = Modifier.height(24.dp))
         Button(
-            onClick = {},
+            onClick = {
+                navHostController.navigate(Routes.UserRegistrationScreen)
+            },
             modifier = Modifier.size(
                 280.dp, 43.dp),
             shape = RoundedCornerShape(8.dp),
@@ -74,7 +77,7 @@ fun WelcomeScreen() {
                 containerColor = colorResource(id = R.color.dark_green)
             )
         ) {
-            Text(text = "Agree and Continues", fontSize = 16.sp)
+            Text(text = "Agree and Continues", fontSize = 16.sp, color = Color.White)
         }
     }
 
