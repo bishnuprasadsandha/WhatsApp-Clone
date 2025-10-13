@@ -43,15 +43,15 @@ This project is created for learning and demonstration purposes, showcasing real
 
 app/
 
-┣ 📁 ui/ # All UI screens and components
+┣ 📁 ui/ **All UI screens and components**
 
-┣ 📁 data/ # Data models, repositories, Firebase integration
+┣ 📁 data/ **Data models, repositories, Firebase integration**
 
-┣ 📁 viewmodel/ # ViewModels for MVVM architecture
+┣ 📁 viewmodel/ **ViewModels for MVVM architecture**
 
-┣ 📁 utils/ # Helper classes and constants
+┣ 📁 utils/ **Helper classes and constants**
 
-┗ AndroidManifest.xml # App manifest file
+┗ AndroidManifest.xml **App manifest file**
 
 
 
