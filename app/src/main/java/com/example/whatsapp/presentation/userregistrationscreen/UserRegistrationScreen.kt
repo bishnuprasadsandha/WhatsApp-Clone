@@ -80,13 +80,12 @@ fun UserRegistrationScreen() {
 
             Text(text = "WhatsApp will need to verify your phone number.")
 
-            Spacer(modifier = Modifier.width(4.dp))
+            //Spacer(modifier = Modifier.width(4.dp))
 
-            Text(text = "what's", color = colorResource(id = R.color.dark_green))
         }
         Spacer(modifier = Modifier.height(6.dp))
 
-        Text(text = "my number ?", color = colorResource(id = R.color.dark_green))
+        Text(text = "What's my number ?", color = colorResource(id = R.color.dark_green))
 
         Spacer(modifier = Modifier.height(16.dp))
 
