@@ -96,6 +96,13 @@ app/
 
 ---
 
+### **Day 6 — Authentication Connection & OTP UI**
+📱 **Connected Phone Input Screen to Authentication Flow**    
+🔐 **Designed and Implemented OTP Verification UI**   
+✅ **Authentication Module in progress**  
+
+---
+
 ## 🚀 Next Steps
 🛠️ Start backend integration (Firebase / API)  
 📡 Implement data flow and logic  
