@@ -264,7 +264,7 @@ fun UserRegistrationScreen(
 
                 phoneAuthViewModel.resetAuthState()
 
-                navHostController.navigate(Routes.UserProfileScreen) {
+                navHostController.navigate(Routes.UserProfileSetScreen) {
                     popUpTo<Routes.UserRegistrationScreen> {
                         inclusive = true
                     }

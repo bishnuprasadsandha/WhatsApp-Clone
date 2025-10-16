@@ -2,7 +2,7 @@ package com.example.whatsapp.presentation.navigation
 
 import kotlinx.serialization.Serializable
 
-sealed class Routes {
+sealed class    Routes {
     @Serializable
     data object SplashScreen: Routes()
 
@@ -25,5 +25,5 @@ sealed class Routes {
     data object CallScreen: Routes()
 
     @Serializable
-    data object UserProfileScreen
+    data object UserProfileSetScreen
 }

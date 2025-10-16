@@ -79,4 +79,7 @@ dependencies {
     implementation("com.google.firebase:firebase-database:22.0.1")
     implementation("com.google.firebase:firebase-auth-ktx:23.2.1")
     implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+
+    //Coil
+    implementation("io.coil-kt:coil-compose:2.7.0")
 }

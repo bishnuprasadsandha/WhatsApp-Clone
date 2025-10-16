@@ -7,6 +7,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.whatsapp.presentation.callscreen.CallScreen
 import com.example.whatsapp.presentation.communitiesscreen.CommunitiesScreen
 import com.example.whatsapp.presentation.homescreen.HomeScreen
+import com.example.whatsapp.presentation.profile.userProfileSetScreen
 import com.example.whatsapp.presentation.splashscreen.SplashScreen
 import com.example.whatsapp.presentation.updatescreen.UpdateScreen
 import com.example.whatsapp.presentation.userregistrationscreen.UserRegistrationScreen
@@ -18,32 +19,36 @@ fun WhatsAppNavigationSystem() {
 
     NavHost(startDestination = Routes.SplashScreen, navController = navController) {
 
-        composable<Routes.SplashScreen>{
+        composable<Routes.SplashScreen> {
             SplashScreen(navController)
         }
 
-        composable<Routes.WelcomeScreen>{
+        composable<Routes.WelcomeScreen> {
             WelcomeScreen(navController)
         }
 
-        composable<Routes.UserRegistrationScreen>{
-            UserRegistrationScreen(navController    )
+        composable<Routes.UserRegistrationScreen> {
+            UserRegistrationScreen(navController)
         }
 
-        composable<Routes.HomeScreen>{
+        composable<Routes.HomeScreen> {
             HomeScreen()
         }
 
-        composable<Routes.UpdateScreen>{
+        composable<Routes.UpdateScreen> {
             UpdateScreen()
         }
 
-        composable<Routes.CommunitiesScreen>{
+        composable<Routes.CommunitiesScreen> {
             CommunitiesScreen()
         }
 
-        composable<Routes.CallScreen>{
+        composable<Routes.CallScreen> {
             CallScreen()
+        }
+
+        composable<Routes.  UserProfileSetScreen>{
+            userProfileSetScreen(navHostController = navController)
         }
     }
 }
