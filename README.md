@@ -111,6 +111,17 @@ app/
 
 ---
 
+
+### **Day 8 — Home Screen Backend, User Search & Bottom Navigation**
+🏠 **Implemented Home Screen Backend Logic** with real-time chat updates from Firestore   
+🔍 **Added User Search Feature** – search users by name or phone number with debounce for smoother performance   
+⬇️ **Integrated Bottom Navigation** using Navigation Component to switch between Chats, Status, Calls & Profile       
+🧪 Added unit tests for **SearchUsersViewModel** (debounce + query validation)    
+✅ Major step towards completing the core chat module! 🚀
+
+
+---
+
 ## ❤️ Stay Connected
 More updates coming soon!  
 If you like this project, don’t forget to ⭐ **star** the repo on GitHub!
